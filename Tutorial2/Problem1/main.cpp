@@ -5,6 +5,7 @@
 
 int main(int argc, char const *argv[])
 {
+	/* Takes an age as input and outputs what education level they should be in.*/
 	std::string sAge;
 	int iAge;
 	std::cout << "Enter age : ";
