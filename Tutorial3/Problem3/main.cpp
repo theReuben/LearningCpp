@@ -9,7 +9,7 @@ std::vector<int> range(int start, int stop, int step);
 
 int main(int argc, char const *argv[])
 {
-	/* Computes compound interest.*/
+	/* Computes compound interest using the previously made range function.*/
 	double dInvesting;
 	double dInterest;
 	int iNumYears;
