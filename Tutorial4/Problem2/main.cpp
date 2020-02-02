@@ -4,7 +4,7 @@
 #include <string>
 #include <numeric>
 
-int divide(double num1, double num2);
+void divide(double num1, double num2);
 
 int main(int argc, char const *argv[])
 {
@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-int divide(double num1, double num2) {
+void divide(double num1, double num2) {
 
 	try {
 		if (num2 == 0) {
@@ -28,5 +28,4 @@ int divide(double num1, double num2) {
 	} catch(const char* exp) {
 		std::cout << "Thrown: " << exp << "\n";
 	}
-	return 0;
 }
