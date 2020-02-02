@@ -10,7 +10,7 @@ By this point I was comfortable with the level of problems, and wanted to move t
 Within this tutorial, Derek Banas implemented a bubble sort, which then led me to implement a merge sort. It was implementing this myself that has so far taught me the most about the language.
 
 Things that I covered while implementing the merge sort include:
-*templates
-*the `<size_t>` data type
-*use of the `<clock()>` from the `<ctime>` library
-*use of further standard functions, such as `<std::copy()>`
+* templates
+* the `<size_t>` data type
+* use of the `<clock()>` from the `<ctime>` library
+* use of further standard functions, such as `<std::copy()>`
