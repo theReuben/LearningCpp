@@ -17,5 +17,6 @@ Things that I covered while implementing the merge sort include:
 * use of further standard functions, such as `std::copy()`
 
 ### Overloading
-I extended the overloading example in the video to include templates, this allows `int, double, float` to be passed, by implementing a third overloading method, which allowed the parameters for the two variable version to take parameters of different types.
+I extended the overloading example in the video to include templates, this allows `int, double, float` to be passed, by implementing a third overloading method, which allowed the parameters for the two variable version to take parameters of different types, `template<typename S, typename T>`.
+	
 I am currently working on implementing a check for the data type being passed, so it can handle the exception where the multiply operation cannot be performed on the variable, such as with a vector.
